@@ -83,21 +83,26 @@ curl "http://65.2.171.2:8000/range?count=10"
 
 - Test Results
 - For Unit Test:
-- <img width="1328" height="316" alt="image" src="https://github.com/user-attachments/assets/43008f5a-1dcf-44e3-9a75-aaf475a99191" />
+<img width="1336" height="467" alt="image" src="https://github.com/user-attachments/assets/2c0ec3fe-71e4-49f6-abb2-b5c15edd5dfd" />
 
-For load Test:
-parallel threads: 1000
-lopp count: 10
 
-test 1 when blocksize: 256 
-failure rate : -0.68
-average response time : 1.3s
+## For load Test:
+<img width="1342" height="201" alt="image" src="https://github.com/user-attachments/assets/7eea2809-e785-46e5-bbe7-4a9e628cf830" />
+
+- parallel threads: 1000
+- lope count: 10
+
+Test1  
+- blocksize: 256 
+- failure rate : -0.68
+- average response time : 1.3s
 <img width="1076" height="513" alt="image" src="https://github.com/user-attachments/assets/c1a6a6d7-2a6d-4b7d-aac8-6ad04bc9c324" />
 
 
-test2: when block size : 1000
-failure rate : 0.47
-average response time : 1s
+Test2: 
+- block size : 1000
+- failure rate : 0.47
+- average response time : 0.9s
 <img width="1082" height="572" alt="image" src="https://github.com/user-attachments/assets/41678fc9-735d-4f4b-9135-e90d4308647d" />
 
 
