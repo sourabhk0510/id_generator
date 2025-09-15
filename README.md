@@ -64,10 +64,15 @@ uvicorn 'src.api:create_app(table_name="id_counters", counter_id="global", regio
 ```
 
 Test endpoints:
+```bash
+curl http://localhost:8001/next
+curl "http://localhost:8001/range?count=10"
+```
 
+AWS Test endpoints:
 ```bash
 curl http://65.2.171.2:8000/next
-curl "http://65.2.171.2:8001/range?count=10"
+curl "http://65.2.171.2:8000/range?count=10"
 ```
 <img width="1351" height="353" alt="image" src="https://github.com/user-attachments/assets/e54f44fb-f73f-4996-80a1-fb0bb2104ca7" />
 
