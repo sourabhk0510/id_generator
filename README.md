@@ -89,8 +89,9 @@ curl "http://65.2.171.2:8000/range?count=10"
 ## For load Test:
 <img width="1342" height="201" alt="image" src="https://github.com/user-attachments/assets/7eea2809-e785-46e5-bbe7-4a9e628cf830" />
 
+
 - parallel threads: 1000
-- lope count: 10
+- Loop count: 10
 
 Test1  
 - blocksize: 256 
