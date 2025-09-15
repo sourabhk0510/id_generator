@@ -67,6 +67,7 @@ Test endpoints:
 curl http://65.2.171.2:8000/next
 curl "http://65.2.171.2:8001/range?count=10"
 ```
+<img width="1351" height="353" alt="image" src="https://github.com/user-attachments/assets/e54f44fb-f73f-4996-80a1-fb0bb2104ca7" />
 
 ## Notes
 
