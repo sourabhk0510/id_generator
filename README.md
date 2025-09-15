@@ -63,13 +63,13 @@ export AWS_REGION=us-east-1
 uvicorn 'src.api:create_app(table_name="id_counters", counter_id="global", region_name="us-east-1", endpoint_url="http://localhost:8000")' --factory --host 0.0.0.0 --port 8001
 ```
 
-Test endpoints:
+Test endpoints locally:
 ```bash
 curl http://localhost:8001/next
 curl "http://localhost:8001/range?count=10"
 ```
 
-AWS Test endpoints:
+## AWS Test Public endpoints:
 ```bash
 curl http://65.2.171.2:8000/next
 curl "http://65.2.171.2:8000/range?count=10"
