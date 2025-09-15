@@ -36,8 +36,10 @@ pytest -q
 ## Load test only
 
 ```bash
-pytest -q tests/test_load.py -q
+pytest -q tests/test_load.py -s
 ```
+<img width="1342" height="201" alt="image" src="https://github.com/user-attachments/assets/7eea2809-e785-46e5-bbe7-4a9e628cf830" />
+
 
 ## Run REST API (backed by real AWS or DynamoDB Local)
 
