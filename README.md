@@ -64,8 +64,8 @@ uvicorn 'src.api:create_app(table_name="id_counters", counter_id="global", regio
 Test endpoints:
 
 ```bash
-curl http://localhost:8001/next
-curl "http://localhost:8001/range?count=10"
+curl http://65.2.171.2:8000/next
+curl "http://65.2.171.2:8001/range?count=10"
 ```
 
 ## Notes
