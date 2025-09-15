@@ -12,6 +12,7 @@ This project implements a globally unique, incremental ID generator with sequent
 
 - `src/id_generator.py`: Abstract interface
 - `src/dynamodb_id_generator.py`: DynamoDB-backed implementation
+- `src/block_id_generator.py`: efficient, distributed, DynamoDB-backed implementation that allocates IDs in blocks for performance
 - `src/api.py`: FastAPI REST API
 - `tests/`: Unit and load tests (using `moto`)
 
